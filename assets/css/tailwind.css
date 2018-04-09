@@ -20,3 +20,7 @@
 .text-white-50 {
   color: color-mod(config('colors.white') alpha(50%));
 }
+
+.text-white-20 {
+  color: color-mod(config('colors.white') alpha(20%));
+}

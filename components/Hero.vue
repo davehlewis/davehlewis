@@ -1,10 +1,11 @@
 <template>
-  <section class="hero container relative bg-black p-8 md:min-h-screen-70 lg:min-h-screen">
-    <div class="hero__content flex flex-col justify-center mb-8 md:mb-0">
+  <section id="hero" class="hero container relative bg-black p-8 md:min-h-screen-70 lg:min-h-screen">
+    <div class="hero__content flex flex-col justify-center my-8 md:my-0">
       <h1 class="font-serif mb-4 md:mb-8 text-white font-normal text-center md:text-left text-4xl md:text-5xl">Hi, I'm Dave Lewis</h1>
       <p class="text-white-50 text-2xl sm:text-3xl md:text-4xl text-center md:text-left font-serif">I'm a <strong class="font-normal text-white">Web Designer</strong> and <strong class="font-normal text-white">Front-End Developer</strong></p>
       <footer class="text-center md:text-left mt-8">
-        <a href="#services" class="inline-block px-6 py-2 font-pixel text-xl lg:text-2xl text-white hover:text-black hover:bg-white no-underline uppercase border-white border-4">See my work</a>
+        <a href="#portfolio" class="inline-block mb-8 px-6 py-2 font-pixel text-xl lg:text-2xl text-white hover:text-black hover:bg-white no-underline uppercase border-white border-4" v-smooth-scroll>See my work</a>
+        <SocialList/>
       </footer>
     </div>
     <div class="hero__image flex items-center justify-center">
@@ -12,6 +13,16 @@
     </div>
   </section>
 </template>
+
+<script>
+import SocialList from '~/components/SocialList'
+export default {
+  components: {
+    SocialList
+  }
+}
+</script>
+
 
 <style scoped>
   .hero {
@@ -21,23 +32,23 @@
   .hero:before, .hero:after {
     content: '';
     display: block;
-    background: white;
+    background: #9DDFED;
     transform-origin: 0 0;
     height: 1em;
-    width: calc((50vw - 50%) + 50%);
+    width: 50vw;
     position: absolute;
     bottom: 0;
   }
 
   .hero:before {
-    left: calc(-50vw + 50%);
-    transform: skewY(5deg) translateY(-4em) scaleY(10);
+    left: 0;
+    transform: skewY(5deg) translateY(-5em) scaleY(10);
   }
 
   .hero:after {
     right: 0;
     transform-origin: 100% 0;
-    transform: skewY(-5deg) translateY(-4em) scaleY(10);
+    transform: skewY(-5deg) translateY(-5em) scaleY(10);
   }
 
   .hero__image svg .frames {
