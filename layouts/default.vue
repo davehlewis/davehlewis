@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import NavPrimary from '~/components/Navprimary'
+  import NavPrimary from '~/components/NavPrimary'
   export default {
     components: {
       NavPrimary
