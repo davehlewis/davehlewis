@@ -1,5 +1,5 @@
 <template>
-  <section id="services" class="relative bg-blue-lightest p-4 md:p8">
+  <section id="services" class="relative p-4 md:p8">
     <div class="services-list mx-auto md:max-w-xl">
       <ServiceListItem v-for="service in services" :key="service.title" :title="service.title" :icon="service.icon">
         {{ service.description }}
@@ -42,6 +42,13 @@ export default {
 </script>
 
 <style scoped>
+  #services {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path fill="%23FFF" d="M0 20h30v10H0z"/><path fill="%23DFF5F9" d="M0 10v10l15 1 15-1V10z"/><path fill="%239DDFED" d="M0 0v10l15 1 15-1V0z"/></svg>');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   @media only screen and (min-width: 48em) {
     .services-list {
       display: grid;

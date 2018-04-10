@@ -11,7 +11,7 @@ export default {
       {
         title: 'LinkedIn',
         url: 'https://www.linkedin.com/in/davehlewis',
-        icon: '<svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 3V2h-1V1H3v1H2v1H1v18h1v1h1v1h18v-1h1v-1h1V3h-1zM8 21H5V10h3v11zM8 8H5V5h3v3zm11 13h-2v-9h-5v9h-2V10h8v1h1v10z"/></svg>'
+        icon: '<svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 3V2h-1V1H3v1H2v1H1v18h1v1h1v1h18v-1h1v-1h1V3h-1zM8 21H5V10h3v11zM8 8H5V5h3v3zm11 13h-3v-8h-3v8h-3V10h8v1h1v10z"/></svg>'
       },
       {
         title: 'Twitter',
