@@ -1,5 +1,5 @@
 <template>
-  <section id="contact bg-purple text-purple-light">
+  <section id="contact" class="bg-purple text-purple-lightest">
     <div class="contact-description">
       <p>Have a project that you need help with?</p>
       <p>Looking to fill a role that my skills are suited to?</p>
