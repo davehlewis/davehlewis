@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Delyn Packaging",
+    "description": "Website design and development for Delyn Packaging. Built using JAMStack, Hugo and NetlifyCMS.",
+    "thumbnail": "/img/delyn-thumb.jpg",
+    "preview": "/img/delyn-preview.jpg"
+  },
+  {
+    "name": "Synergy Choir",
+    "description": "Website for Synergy Choir based in Abergavenny. Wordpress based site with a bespoke template.",
+    "thumbnail": "/img/synergy-thumb.jpg",
+    "preview": "/img/synergy-preview.jpg"
+  },
+  {
+    "name": "Wingman",
+    "description": "Website and ECommerce solution for Ireland-based vehicle tracking solution. Bespoke Wordpress and WooCommerce template",
+    "thumbnail": "/img/wingman-thumb.jpg",
+    "preview": "/img/wingman-preview.jpg"
+  },
+  {
+    "name": "Nantgarw China Works",
+    "description": "China Works website and rebranding. Wordpress based site with a bespoke template.",
+    "thumbnail": "/img/nantgarw-chinaworks-thumb.jpg",
+    "preview": "/img/nantgarw-chinaworks-preview.jpg"
+  },
+  {
+    "name": "Great British Valve Group",
+    "description": "Single Landing Page for Great British Valve group companies. Wordpress based site.",
+    "thumbnail": "/img/gbvg-thumb.jpg",
+    "preview": "/img/gbvg-preview.jpg"
+  },
+  {
+    "name": "Mileage Capture App",
+    "description": "Innovation Mileage Capture App Interface design for iOS, Android and Blackberry devices.",
+    "thumbnail": "/img/mileage-app-thumb.jpg",
+    "preview": "/img/mileage-app-preview.jpg"
+  },
+  {
+    "name": "Trax",
+    "description": "Mileage tracking web and mobile app. Built using Node.js and Angular 1.x (MEAN stack)",
+    "thumbnail": "/img/trax-thumb.png",
+    "preview": "/img/trax-preview.jpg"
+  }
+]

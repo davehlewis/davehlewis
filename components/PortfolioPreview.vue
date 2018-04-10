@@ -1,5 +1,7 @@
 <template>
-  
+  <div class="portfolio-preview">
+
+  </div>
 </template>
 
 <script>

@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Hero/>
-    <ServiceList/>
-    <Portfolio/>
-    <About/>
-    <Contact/>
+    <Hero class="home-section"/>
+    <ServiceList class="home-section"/>
+    <Portfolio class="home-section"/>
+    <About class="home-section"/>
+    <Contact class="home-section"/>
   </div>
 </template>
 
@@ -24,3 +24,15 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .home-section {
+    padding: 4rem 2rem;
+  }
+  @media only screen and (min-width: 62em) {
+    .home-section {
+      padding: 6rem 4rem;
+      min-height: 80vh;
+    }
+  }
+</style>

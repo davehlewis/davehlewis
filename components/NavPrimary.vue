@@ -1,7 +1,7 @@
 <template>
-  <nav class="fixed z-10 pin-t pin-l lg:pin-none p-4">
-    <button class="nav__toggle lg:hidden" @click="navVisible = !navVisible" aria-label="Show Navigation"><span></span></button>
-    <ul class="nav__list list-reset opacity mt-2 lg:mt-0 bg-black lg:bg-transparent border-4 lg:border-0 border-white py-2 px-4 lg:p-0" :class="{ 'is-shown': navVisible }">
+  <nav class="fixed z-10 pin-t pin-l">
+    <button class="inline-block nav__toggle w-16 h-16 bg-black" @click="navVisible = !navVisible" aria-label="Show Navigation"><span></span></button>
+    <ul class="nav__list list-reset opacity mt-2 bg-black border-4 border-white py-2 px-4" :class="{ 'is-shown': navVisible }">
       <li><a href="#hero" v-smooth-scroll></a></li>
       <li><a href="#services" v-smooth-scroll class="block text-xl font-pixel pl-6 py-1 text-white-50 hover:text-white no-underline">Services</a></li>
       <li><a href="#portfolio" v-smooth-scroll class="block text-xl font-pixel pl-6 py-1 text-white-50 hover:text-white no-underline">My Work</a></li>
@@ -22,11 +22,9 @@ export default {
 
 <style scoped>
   .nav__toggle {
-    height: 2rem;
     opacity: 0.6;
     outline: none;
     position: relative;
-    width: 2.5rem;
   }
 
   .nav__toggle:hover,
@@ -40,7 +38,8 @@ export default {
     background: white;
     display: block;
     position: absolute;
-    width: 100%;
+    left: 50%;
+    width: 2.5rem;
     height: 0.25rem;
   }
 
@@ -51,15 +50,15 @@ export default {
 
   .nav__toggle span {
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
   }
 
   .nav__toggle span:before {
-    transform: translateY(-0.75rem);
+    transform: translate(-50%, -0.75rem);
   }
 
   .nav__toggle span:after {
-    transform: translateY(0.75rem);
+    transform: translate(-50%, 0.75rem);
   }
 
   .nav__list {
@@ -72,16 +71,6 @@ export default {
   
   .nav__list li a {
     mix-blend-mode: difference;
-  }
-
-  @media only screen and (min-width: 62em) {
-    nav {
-      top: 50%;
-      transform: translateY(-50%);
-    }
-    .nav__list {
-      transform: translatex(0);
-    }
   }
 </style>
 

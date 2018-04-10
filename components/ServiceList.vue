@@ -1,6 +1,6 @@
 <template>
-  <section id="services" class="relative p-4 md:p8">
-    <div class="services-list mx-auto md:max-w-xl">
+  <section id="services" class="relative p-4 md:p8 flex items-center bg-blue-lightest">
+    <div class="services-list mx-auto md:max-w-2xl">
       <ServiceListItem v-for="service in services" :key="service.title" :title="service.title" :icon="service.icon">
         {{ service.description }}
       </ServiceListItem>
@@ -20,7 +20,7 @@ export default {
       },
       {
         title: 'Web Development',
-        description: 'I use the latest tools and practises to ensure your website is fully responsive, runs quickly, and has great user functionality. Interactivity usually only found on bigger sites is within reach of any business.',
+        description: 'Using the latest technologies, I can make your website work well for any user, on any device. Interactivity usually only found on bigger sites is within reach of any business.',
         icon: ''
       },
       {
@@ -43,7 +43,8 @@ export default {
 
 <style scoped>
   #services {
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path fill="%23FFF" d="M0 20h30v10H0z"/><path fill="%23DFF5F9" d="M0 10v10l15 1 15-1V10z"/><path fill="%239DDFED" d="M0 0v10l15 1 15-1V0z"/></svg>');
+    background-image: linear-gradient(#DFF5F9, white);
+    /*background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path fill="%23FFF" d="M0 20h30v10H0z"/><path fill="%23DFF5F9" d="M0 10v10l15 1 15-1V10z"/><path fill="%239DDFED" d="M0 0v10l15 1 15-1V0z"/></svg>');*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,6 +55,12 @@ export default {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 2rem;
+    }
+  }
+
+  @media only screen and (min-width: 62em) {
+    .services-list {
+      grid-gap: 6rem;
     }
   }
 </style>

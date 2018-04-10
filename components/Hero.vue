@@ -32,7 +32,7 @@ export default {
   .hero:before, .hero:after {
     content: '';
     display: block;
-    background: #9DDFED;
+    background: #DFF5F9;
     transform-origin: 0 0;
     height: 1em;
     width: 50vw;
