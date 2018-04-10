@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed z-10 pin-t pin-l lg:pin-none lg:pin-b lg:mb-8 p-4">
+  <nav class="fixed z-10 pin-t pin-l lg:pin-none p-4">
     <button class="nav__toggle lg:hidden" @click="navVisible = !navVisible" aria-label="Show Navigation"><span></span></button>
     <ul class="nav__list list-reset opacity mt-2 lg:mt-0 bg-black lg:bg-transparent border-4 lg:border-0 border-white py-2 px-4 lg:p-0" :class="{ 'is-shown': navVisible }">
       <li><a href="#hero" v-smooth-scroll></a></li>
@@ -69,11 +69,18 @@ export default {
   .nav__list.is-shown {
     transform: translatex(0);
   }
+  
+  .nav__list li a {
+    mix-blend-mode: difference;
+  }
 
   @media only screen and (min-width: 62em) {
+    nav {
+      top: 50%;
+      transform: translateY(-50%);
+    }
     .nav__list {
       transform: translatex(0);
-      margin-bottom: 10vh;
     }
   }
 </style>
