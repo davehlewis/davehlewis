@@ -25,7 +25,7 @@ export default {
 <style>
   .portfolio-list {
     display: grid;
-    grid-gap: 0.25rem;
+    grid-gap: 1rem;
     justify-items: stretch;
   }
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="portfolio-item bg-black">
+  <div class="portfolio-item">
     <slot></slot>
   </div>
 </template>
