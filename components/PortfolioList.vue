@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio-list">
     <PortfolioListItem class="relative overflow-hidden" v-for="example in examples" :key="example.name">
-      <img class="portfolio-item__thumb" :src="example.thumbnail" :alt="example.description">
+      <img class="portfolio-item__thumb" v-lazy="example.thumbnail" :alt="example.description">
       <div class="portfolio-item__content bg-buff-darker absolute pin-t pin-l w-full h-full flex flex-col justify-center p-8">
         <h3 class="font-pixel text-xl text-buff-lightest mb-4">{{ example.name }}</h3>
         <p class="font-serif text-lg text-buff-light">{{ example.description }}</p>

@@ -1,7 +1,7 @@
 <template>
   <section id="portfolio" class="portfolio bg-buff-lighter pad-8">
-    <h2 class="font-pixel text-2xl lg:text-3xl text-buff-darker text-center mb-4">My Work</h2>
-    <p class="font-serif text-lg lg:text-xl text-buff-dark text-center mb-8">Below are a few examples of my work</p>
+    <h2 class="font-pixel text-2xl lg:text-3xl text-buff-darkest text-center mb-4">My Work</h2>
+    <p class="font-serif text-lg lg:text-xl text-buff-darker text-center mb-8">Below are a few examples of my work</p>
     <PortfolioPreview class="hidden lg:block" />
     <PortfolioList :examples="examples" />
   </section>

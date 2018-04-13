@@ -2,7 +2,7 @@
   <nav class="fixed z-10 pin-t pin-l">
     <button class="inline-block nav__toggle w-16 h-16 bg-black" @click="navVisible = !navVisible" aria-label="Show Navigation"><span></span></button>
     <ul class="nav__list list-reset opacity mt-2 bg-black border-4 border-white py-2 px-4" :class="{ 'is-shown': navVisible }">
-      <li><a href="#hero" v-smooth-scroll></a></li>
+      <li><a href="#hero" v-smooth-scroll>Home</a></li>
       <li><a href="#services" v-smooth-scroll class="block text-xl font-pixel pl-6 py-1 text-white-50 hover:text-white no-underline">Services</a></li>
       <li><a href="#portfolio" v-smooth-scroll class="block text-xl font-pixel pl-6 py-1 text-white-50 hover:text-white no-underline">My Work</a></li>
       <li><a href="#about" v-smooth-scroll class="block text-xl font-pixel pl-6 py-1 text-white-50 hover:text-white no-underline">Who Am I?</a></li>
