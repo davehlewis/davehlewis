@@ -45,7 +45,7 @@ module.exports = {
   plugins: [
     '~/plugins/vue-smooth-scroll',
     '~/plugins/vue-lazyload',
-    {src: '~/plugins/webFontLoader.js', ssr: false}
+    {src: '~/plugins/webfontloader.js', ssr: false}
   ],
 
   /*
