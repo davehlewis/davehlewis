@@ -35,7 +35,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   input:focus, textarea:focus {
     outline: 4px solid #C3A2DC;
   }

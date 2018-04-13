@@ -119,7 +119,7 @@ module.exports = {
   */
 
   screens: {
-    'sm': '36em',
+    //'sm': '36em',
     'md': '48em',
     'lg': '62em',
     'xl': '75em',
@@ -157,14 +157,14 @@ module.exports = {
       'Telegrama',
       'monospace',
     ],
-    'mono': [
+    /*'mono': [
       'Menlo',
       'Monaco',
       'Consolas',
       'Liberation Mono',
       'Courier New',
       'monospace',
-    ]
+    ]*/
   },
 
 
@@ -215,14 +215,14 @@ module.exports = {
   */
 
   fontWeights: {
-    'hairline': 100,
-    'thin': 200,
-    'light': 300,
+    //'hairline': 100,
+    //'thin': 200,
+    //'light': 300,
     'normal': 400,
-    'medium': 500,
-    'semibold': 600,
+    //'medium': 500,
+    //'semibold': 600,
     'bold': 700,
-    'extrabold': 800,
+    //'extrabold': 800,
     'black': 900,
   },
 
@@ -241,9 +241,9 @@ module.exports = {
 
   leading: {
     'none': 1,
-    'tight': 1.25,
+    //'tight': 1.25,
     'normal': 1.5,
-    'loose': 2,
+    //'loose': 2,
   },
 
 
@@ -782,13 +782,13 @@ module.exports = {
     backgroundRepeat: ['responsive'],
     backgroundSize: ['responsive'],
     borderColors: ['responsive', 'hover'],
-    borderRadius: ['responsive'],
+    //borderRadius: ['responsive'],
     borderStyle: ['responsive'],
     borderWidths: ['responsive'],
-    cursor: ['responsive'],
+    //cursor: ['responsive'],
     display: ['responsive'],
     flexbox: ['responsive'],
-    float: ['responsive'],
+    //float: ['responsive'],
     fonts: ['responsive'],
     fontWeights: ['responsive', 'hover'],
     height: ['responsive'],
@@ -803,21 +803,21 @@ module.exports = {
     opacity: ['responsive'],
     overflow: ['responsive'],
     padding: ['responsive'],
-    pointerEvents: ['responsive'],
+    //pointerEvents: ['responsive'],
     position: ['responsive'],
     resize: ['responsive'],
-    shadows: ['responsive'],
+    //shadows: ['responsive'],
     svgFill: [],
     svgStroke: [],
     textAlign: ['responsive'],
     textColors: ['responsive', 'hover'],
     textSizes: ['responsive'],
     textStyle: ['responsive', 'hover'],
-    tracking: ['responsive'],
-    userSelect: ['responsive'],
-    verticalAlign: ['responsive'],
+    //tracking: ['responsive'],
+    //userSelect: ['responsive'],
+    //verticalAlign: ['responsive'],
     visibility: ['responsive'],
-    whitespace: ['responsive'],
+    //whitespace: ['responsive'],
     width: ['responsive'],
     zIndex: ['responsive'],
   },

@@ -25,7 +25,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   .home-section {
     padding: 4rem 2rem;
   }

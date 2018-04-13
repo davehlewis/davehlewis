@@ -20,7 +20,7 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
   .nav__toggle {
     opacity: 0.6;
     outline: none;

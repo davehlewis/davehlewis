@@ -41,7 +41,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   #services {
     background-image: linear-gradient(#DFF5F9, white);
     /*background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path fill="%23FFF" d="M0 20h30v10H0z"/><path fill="%23DFF5F9" d="M0 10v10l15 1 15-1V10z"/><path fill="%239DDFED" d="M0 0v10l15 1 15-1V0z"/></svg>');*/

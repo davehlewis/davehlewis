@@ -2,7 +2,7 @@
   <section id="hero" class="hero container relative bg-black p-8 md:min-h-screen-70 lg:min-h-screen">
     <div class="hero__content flex flex-col justify-center my-8 md:my-0">
       <h1 class="font-serif mb-4 md:mb-8 text-white font-normal text-center md:text-left text-4xl md:text-5xl">Hi, I'm Dave Lewis</h1>
-      <p class="text-white-50 text-2xl sm:text-3xl md:text-4xl text-center md:text-left font-serif">I'm a <strong class="font-normal text-white">Web Designer</strong> and <strong class="font-normal text-white">Front-End Developer</strong></p>
+      <p class="text-white-50 text-2xl md:text-4xl text-center md:text-left font-serif">I'm a <strong class="font-normal text-white">Web Designer</strong> and <strong class="font-normal text-white">Front-End Developer</strong></p>
       <footer class="text-center md:text-left mt-8">
         <a href="#portfolio" class="inline-block mb-4 px-6 py-2 font-pixel text-xl lg:text-2xl text-white hover:text-black hover:bg-white no-underline uppercase border-white border-4" v-smooth-scroll>See my work</a>
         <SocialList class="justify-center md:justify-start"/>
@@ -24,7 +24,7 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
   .hero {
     background-image: radial-gradient(circle at center, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 60%);
   }
