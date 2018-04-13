@@ -8,14 +8,22 @@ module.exports = {
   */
   head: {
     title: pkg.name,
+    htmlAttrs: {
+      lang: 'en-GB'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'theme-color', content: '#222222' },
+      { name: 'msapplication-TileColor', content: '#222222' },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Arvo|Roboto:400,400i' }
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16.png' },
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#222222' },
+      { rel: 'manifest', href: '/manifest.webmanifest' }
     ]
   },
 
@@ -35,7 +43,9 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/vue-smooth-scroll'
+    '~/plugins/vue-smooth-scroll',
+    '~/plugins/vue-lazyload',
+    {src: '~/plugins/webFontLoader.js', ssr: false}
   ],
 
   /*

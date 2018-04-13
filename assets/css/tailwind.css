@@ -17,6 +17,10 @@
 
 @tailwind utilities;
 
+body {
+  text-rendering: optimizeLegibility;
+}
+
 .text-white-50 {
   color: color-mod(config('colors.white') alpha(50%));
 }
