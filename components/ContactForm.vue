@@ -1,5 +1,5 @@
 <template>
-  <form action="" class="contact__form">
+  <form class="contact__form" name="contact" method="POST" netlify>
     <div class="border-4 border-white py-4 px-6 mb-4">
       <label class="block font-pixel uppercase text-purple-lighter mb-2 px-2" for="contact-name">Your Name</label>
       <input class="text-xl font-serif w-full bg-purple-darker px-4 py-3 text-white" type="text" name="contact-name" id="contact-name">
