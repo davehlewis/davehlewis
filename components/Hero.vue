@@ -1,10 +1,10 @@
 <template>
-  <section id="hero" class="hero container relative bg-black p-8 md:min-h-screen-70 lg:min-h-screen">
+  <section id="hero" class="hero container relative bg-black p-8 min-h-screen md:h-screen">
     <div class="hero__content flex flex-col justify-center my-8 md:my-0">
       <h1 class="font-serif mb-4 md:mb-8 text-white font-normal text-center md:text-left text-4xl md:text-5xl">Hi, I'm Dave Lewis</h1>
-      <p class="text-white-50 text-2xl md:text-4xl text-center md:text-left font-serif">I'm a <strong class="font-normal text-white">Web Designer</strong> and <strong class="font-normal text-white">Front-End Developer</strong></p>
+      <p class="text-white-50 text-2xl md:text-4xl text-center md:text-left font-serif pb-4">I'm a <strong class="font-normal text-white">Web Designer</strong> and <strong class="font-normal text-white">Front-End Developer</strong></p>
+      <p class="text-white-50 text-lg md:text-xl text-center md:text-left font-serif">My site is overdue for a rebuild, for now, check me out on social media.</p>
       <footer class="text-center md:text-left mt-8">
-        <a href="#portfolio" class="inline-block mb-4 px-6 py-2 font-pixel text-xl lg:text-2xl text-white hover:text-black hover:bg-white no-underline uppercase border-white border-4" v-smooth-scroll>See my work</a>
         <SocialList class="justify-center md:justify-start"/>
       </footer>
     </div>
@@ -29,28 +29,6 @@ export default {
     background-image: radial-gradient(circle at center, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 60%);
   }
 
-  .hero:before, .hero:after {
-    content: '';
-    display: block;
-    background: #DFF5F9;
-    transform-origin: 0 0;
-    height: 1em;
-    width: 50vw;
-    position: absolute;
-    bottom: 0;
-  }
-
-  .hero:before {
-    left: 0;
-    transform: skewY(5deg) translateY(-5em) scaleY(10);
-  }
-
-  .hero:after {
-    right: 0;
-    transform-origin: 100% 0;
-    transform: skewY(-5deg) translateY(-5em) scaleY(10);
-  }
-
   .hero__image svg .frames {
     animation: type 0.2s steps(4, end) infinite;
   }
@@ -68,7 +46,7 @@ export default {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-6rem);
+      transform: translateX(-96px);
     }
   }
 

@@ -1,26 +1,14 @@
 <template>
   <div>
     <Hero class="home-section"/>
-    <ServiceList class="home-section"/>
-    <Portfolio class="home-section"/>
-    <About class="home-section"/>
-    <Contact class="home-section"/>
   </div>
 </template>
 
 <script>
 import Hero from '~/components/Hero'
-import ServiceList from '~/components/ServiceList'
-import Portfolio from '~/components/Portfolio'
-import About from '~/components/About'
-import Contact from '~/components/Contact'
 export default {
   components: {
-    Hero,
-    ServiceList,
-    Portfolio,
-    About,
-    Contact
+    Hero
   }
 }
 </script>
