@@ -1,7 +1,7 @@
 {
   "name": "davehlewis",
-  "version": "1.0.0",
-  "description": "Dave Lewis - Web Designer and Front End Developer",
+  "version": "1.1.0",
+  "description": "Dave Lewis - Product Designer and Front End Developer",
   "author": "David Lewis &lt;dave@davehlewis.com&gt;",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
-    "nuxt": "^1.0.0",
+    "nuxt": "^2.0.0",
     "vue-lazyload": "^1.2.3",
     "vue-smooth-scroll": "^1.0.13",
     "webfontloader": "^1.6.28"
@@ -24,12 +24,12 @@
     "babel-eslint": "^8.2.1",
     "cross-env": "^5.0.1",
     "eslint": "^4.15.0",
-    "eslint-loader": "^1.7.1",
+    "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^4.0.0",
     "glob-all": "^3.1.0",
     "postcss": "^6.0.21",
     "postcss-preset-env": "^3.5.0",
     "purgecss-webpack-plugin": "^0.22.0",
-    "tailwindcss": "^0.5.2"
+    "tailwindcss": "^0.6.6"
   }
 }
